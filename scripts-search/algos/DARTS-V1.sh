@@ -19,7 +19,7 @@ seed=$2
 channel=16
 num_cells=5
 max_nodes=4
-space=nas-bench-102
+space=darts
 
 if [ "$dataset" == "cifar10" ] || [ "$dataset" == "cifar100" ]; then
   data_path="$TORCH_HOME/cifar.python"
